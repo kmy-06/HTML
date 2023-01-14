@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- indent your code using tab key -->
+<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a awesome website">
+    <meta name="author" content="Moyu">
+    <meta name="keywords" content="HTML,Learning">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kong's Website</title>
+  </head>
+  <body style="background-color:burlywood;">
+    <header>
+      <form>
+        <!-- also email,range,file,checkbox,submit -->
+        <div><input type="text" value="Enter Your Username"/></div>
+        <div><input type="password"/></div>
+        <div><input type="date"/><div>
+        <!-- for radio, same name, only select one -->
+        <div><input name="button" type="radio"/></div>
+        <div><input name="button" type="radio"/></div>
+        <div><textarea rows="10" cols="30">Enter a paragraph</textarea></div>
+        <button>Learn More!</button>
+        <button type="button">
+          Get Started
+        </button>
+        <details>
+          <Summary>Epcot Center</summary>
+            <p>
+              Epcot is a theme park at Walt Disney
+              World Resort featuring exciting
+              attractions, international pavilions,
+              award-winning fireworks and seasonal
+              special events.
+            </p>
+          </details>
+          <meter value="2" min="g" max="10"></meter>
+          <br />
+          <span>Storage:</span>
+          <meter value="57" min="0" max="100"></meter>
+      </form>
+      <!-- frameborder is the outline of the embeded website -->
+      <iframe src="http://giraffeacademy.com/" frameborder="0" width="800" height="500">Sorry</iframe>
+      <nav>
+
+      </nav>
+    </header>
+    <main>
+    <h1 style="color:green;">Kong's Website</h1>
+    <!-- Be mindful of the aspect ratio of the image (don't have to include both width and height) -->
+    <img width="300" height="300" src="SparkAR.jpg" alt="My AR skill" />
+    <!-- can add autoplay -->
+    <video width="300" src="project.mp4" poster="thumb.jpg" loop controls></video>
+    <!-- when you click the rocket picture, spaceX's website will show -->
+    <a href="https://www.spacex.com" target="_blank">
+    <img width="300" src="https://cdn.arstechnica.net/wp-content/uploads/2022/06/Starship-Feb-10-2022-5447-800x534.jpg" alt="My dream" />
+    </a>
+  <iframe height="200" src="https://www.youtube.com/embed/-U5dEdWouDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- href = where we want to link to -->
+    <!-- _blank = open a new page for the link -->
+    <a href="https://www.google.com" target="_blank"><h2>Google's Homepage</h2></a>
+    <a href="page2.html"><h2>Page 2</h2></a>
+    <a href="dir1/page3.html"><h2>Page 3</h2></a>
+    <a href="SparkAR.jpg" target="_blank"><h2>SparkAR</h2></a>
+    <!-- add spaces -->
+    <br/><br/>
+    <!-- add lines -->
+    <hr/><hr/>
+    <p><big>This</big> is the <b>first</b> paragraph</p>
+    <p><small>This</small> is the <i>second</i> paragraph</p>
+    <!-- subscript -->
+    <p>H<sub>2</sub>0</p>
+    <!-- superscript -->
+    <p>10<sup>2</sup></p>
+    <p style="color:red; background-color:blue;">You can style your text</p>
+    <!-- Abbreviation -->
+    <p>
+      The
+      <abbr title="World Health Organizaton">
+        WHO
+      </abbr>
+      was founded in 1948.
+    </p>
+    <!-- Cite -->
+    <p>
+      The first
+      <cite>Star Wars</cite>
+      was released in 1977
+    </p>
+    <blockqoute
+    cite="http://www.worldwildlife.org/who/index.htmI"
+    >
+      For 50 years, WF has been
+      protecting the future of nature. The world's leading
+      conservation organization, WWF works in
+      100 countries and is supported by 1.2
+      million members in the United States
+      and close to 5 million globally.
+    </blockquote>
+    <!-- Quotation -->
+    <p>
+      <q>
+        Did you put your name
+        in the Goblet of Fire, Harry?
+      </q>
+      Dumbledore asked calmly
+    </p>
+    <!-- key board text -->
+    <p>
+      Press <kbd>Ctrl</kbd> +
+      <kbd>C</kbd> to copy text.
+    </p>
+    <p>
+      The CSS
+      <code>background-color</code>
+      property defines the
+      background color of an element.
+    </p>
+    <!-- Sample text -->
+    <p><samp>Press Enter To Continue</samp></p>
+    <strong>Important Note!</strong>
+    <!-- Address -->
+    <address>
+      Written by
+      <a href="mailto:webmaster@example.com">
+        Jon Doe
+      </a>.
+      <br />
+      Visit us at:<br />
+      Example.com<br />
+      Box 564, Disneyland<br />
+      USA
+    </address>
+    <!-- Deleted & Inserted Text -->
+    <p>
+      My favorite color is
+      <del>blue</del>
+      <ins>red</ins>!
+    </p>
+    <!-- Definition -->
+    <p>
+      <dfn>HTML</dfn>
+      is the standard markup
+      language for creating
+      web pages.
+    </p>
+    <!-- Emphasized text -->
+    <p>
+      You
+      <em>have</em> to hurry up!
+    </p>
+    <!-- Italics -->
+    <p>
+      <i>
+        Maybe this is all
+        one big mistake,
+      </i>
+      Frank thought, as he turned back.
+    </p>
+    <!-- Mark -->
+    <p>
+      Don't forget to fasten your
+      <mark>seatbelt</mark>
+      when you drive
+    </p>
+    <!-- pre, similiar to code -->
+    <pre>
+    text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both        spaces and
+
+
+    line break
+    </pre>
+    <p>
+      <bdo dir="rtl">
+        This paragraph will
+        go right-to-left.
+      </bdo>
+    </p>
+    <!-- Another example with regular text -->
+    <ruby>
+      Example
+      <rp>(</rp>
+      <rt>345</rt>
+      <rp>)</rp>
+    </ruby>
+    <!-- cancel text -->
+    <p><s>Bryce Wayne is Superman</s></p>
+    <!-- misspelled words -->
+    <p>
+      This is some
+      <u>mispeled</u>
+    </p>
+    <!-- Varibles -->
+    <var>b<var>
+    <!--- WBR -->
+    <p>A very l0000000000000000
+      00000000000000000000000000
+      000000000000000000000000
+      00000000000000000000000000000
+      0000000000ng
+      <wbr />
+      wordthatbrakesonsmallscreens
+    </p>
+      <article>
+        <section>
+          <h3></h3>
+
+        </section>
+        <section>
+
+          <aside>
+
+          </aside>
+
+        </section>
+      </article>
+    </main>
+    <footer>
+      <!-- list(steps) -->
+      <ul>
+        <li><a href="#">Apples</a></li>
+        <li>Oranges</li>
+        <li>Banans</li>
+      </ul>
+      <!-- order list(originally start with 1,2,3)[alt:A,a,I,i] -->
+      <ol type="A">
+        <li><a href="#">Apples</a></li>
+        <li>Oranges
+          <ol>
+            <li>item1</li>
+            <li>item2</li>
+          </ol>
+        </li>
+        <li>Banans</li>
+      </ol>
+      <!-- description list -->
+      <dl>
+        <!-- description terms -->
+        <dt>Apples</dt>
+        <!-- describe the description term -->
+        <dd>- They are red</dd>
+        <dt>Oranges</dt>
+        <dd>- They are orange</dd>
+      </dl>
+      <table>
+        <!-- table head -->
+        <thead>
+          <!-- title of the table -->
+          <caption><h2>List of Numbers</h2></caption>
+            <!-- table headers -->
+            <tr>
+              <th>num1</th>
+              <th>num2</th>
+              <th>num3</th>
+            </tr>
+        </thead>
+        <!-- table body -->
+        <tbody>
+          <!-- table rows -->
+          <tr>
+            <!-- table data -->
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+            <td>three and a half</td>
+          </tr>
+          <!-- test -->
+          <tr>
+            <!-- table data -->
+            <td colspan="2" >four</td>
+            <td>five</td>
+            <td>six</td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- next to each other(example) -->
+      <a href="#">Link1</a>
+      <a href="#">Link2</a>
+      <!-- they produce the same lines -->
+      <hr>
+    <hr>
+  <hr>
+      <!-- next to each other -->
+      <span>span1</span>
+      <span>span2</span>
+  <hr>
+      <!-- above or below each other -->
+      <div>div1</div>
+      <div>div2</div>
+      <div class="verticalLine">
+        <p>
+        </p>
+      </div>
+
+    </footer>
+  </body>
+</html>
